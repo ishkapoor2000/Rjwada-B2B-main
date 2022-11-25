@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  color: white;
+  background: url(./assets/Vector\ Smart\ Object\ 2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  padding: 1rem 4rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+nav img{
+  height: 2rem;
+  width: auto;
+}
+
+nav .left{
+  width: 30%;
+}
+
+nav .right{
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 15rem;
+}
+
+nav .right .search input{
+  color: #FFFFFF;
+  opacity: 21%;
+  border: none;
+  outline: none;
+  height: 1.5rem;
+  border-radius: .5rem;
+  font-weight: bold;
+  display: grid;
+  padding: 1rem;
+}
+
+::placeholder{
+  color: #9F9F9F;
+  opacity: 1;
+  font-size: 1rem;
+}
+
+nav .right button{
+  background: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: .5rem;
+}
+
+.right .no-border{
+  border: none;
+}
+
+.right button.border{
+  border: 2px solid white;
+  border-radius: .2rem;
+}
+
+
+
+main{
+  position: relative;
+  height: 130vh;
+  margin-bottom: 4rem;
+}
+
+.main-wrapper{
+  height: 100%;
+  width: 100%
+}
+
+.main-img{
+  width: 100%;
+  height: 100%;
+}
+
+.main-img img{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.main-text{
+  position: absolute;
+  top: 10rem;
+  /* left: 2rem; */
+  width: 35%;
+  padding-left: 1rem;
+}
+
+.main-text h1{
+  color: #A026FF;
+  font-size:2rem;
+  letter-spacing: .1rem;
+  margin-bottom: 1.5rem;
+}
+
+.main-text h4{
+  letter-spacing: .05rem;
+  margin-bottom: 4rem;
+}
+
+.main-text button{
+  padding: 1rem 5rem;
+  font-size: 1.5rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  background-color: #0D99FF;
+}
+
+
+
+.sec-1{
+  height: 130vh;
+  width: 100%;
+  position: relative;
+}
+
+.sec-1-img{
+  height: 100%;
+  width: 100%;
+}
+
+.sec-1-img img{
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(ellipse at center, #ffffff 0%,#ffffff 59%,#ededed 100%);
+  /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
+}
+
+.sec-1-text{
+  width: 50%;
+  position: absolute;
+  top: 30%;
+  right: 0;
+}
+
+.sec-1-text h2{
+  color: #7EE687;
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  letter-spacing: .1rem;
+}
+
+.sec-1-text h4{
+  margin-bottom: 1rem;
+}
+
+.sec-1-text h3{
+  margin-bottom: 6rem;
+}
+
+.buttons .try-on{
+  padding: .8rem 4rem;
+  margin-right: 1.5rem;
+  border-radius: .3rem;
+  background-color: #6a2b5f60;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+}
+
+.buttons .ar{
+  color: white;
+  padding: .8rem 4rem;
+  border-radius: .3rem;
+  background-color: transparent;
+  border: 2px solid #01A99D;
+  font-weight: bold;
+}
+
+.sec-2{
+  margin-top: 4rem;
+}
+
+.sec-2 h2{
+  color: #A026FF;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.sec-2 h3{
+  color: #aaaaaa;
+  margin-bottom: 3rem;
+}
+
+.sec-2 form{
+  margin-bottom: 7rem;
+}
+
+.sec-2 form input{
+  padding: 1rem;
+  width: 15rem;
+  border: none;
+  outline: none;
+  background: #D9D9D9;
+  border-radius: .5rem 0 0 .5rem ;
+}
+
+.sec-2 form button{
+  padding: 1rem;
+  width: 10rem;
+  border: none;
+  outline: none;
+  background: #a126ff94;
+  color: white;
+  border-radius: 0 .5rem .5rem 0;
+}
+
+.fun .fun-lg{
+  border-radius: .7rem;
+  padding: .3rem 2rem;
+  border: 1px solid #FFA28B;
+  font-size: .7rem;
+  color: #FFA28B;
+  margin-bottom: 1.5rem;
+}
+
+.fun h2{
+  color: #FFA28B;
+  margin-top: 1.5rem;
+}
+
+.fun p{
+  margin-bottom: 7rem;
+}
+
+.footer .footer-text{
+  border: 2px solid rgba(255, 255, 255, 0.151);
+  border-radius: 10px;
+  width: 50%;
+  padding: 2rem;
+  background-color: rgba(211, 211, 211, 0.158);
+  margin-bottom: 3rem;
+}
+
+.footer-text p{
+  color: rgb(201, 201, 201);
+}
+
+.footer span{
+  color: white;
+  font-size: 1.3rem;
+  margin-right: .3rem;
+}
+
+.footer h3{
+  border: 2px solid rgba(255, 255, 255, 0.151);
+  border-radius: 10px;
+  display: inline-block;
+  padding: 1.2rem;
+  background-color: rgba(211, 211, 211, 0.158);
+  font-size: 1.5rem;
+  font-weight: 500;
+  width: 25%;
+  margin-bottom: 2rem;
+}
+
+.footer .imgs{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer .imgs img{
+  width: 28rem;
+  height: 35rem;
+}
+
+
+@media screen and (max-width: 1024px){
+  .footer .imgs img{
+    width: 20rem;
+    height: 25rem;
+  }
+
+  main{
+    height: 100vh;
+  }
+
+  .main-text{
+    width: 45%;
+    top: 5rem;
+  }
+
+  nav{
+    justify-content: space-between;
+  }
+
+  nav .right{
+    margin-left: 10rem;
+    width: 70%;
+  }
+
+  .sec-1{
+    height: 100vh;
+  }
+
+  .sec-1-text{
+    width: 60%;
+    top: 15%;
+  }
+
+  .sec-1-text h3{
+    margin-bottom: 2rem;
+  }
+
+  .sec-1-text .buttons{
+    margin-left: 3rem;
+  }
+  
+  .sec-1-text .buttons .try-on{
+    padding: .8rem 2.3rem;
+  }
+
+  .sec-1-text .buttons .ar{
+    padding: .8rem 2.3rem;
+  }
+
+  nav .left{
+    width: 20%;
+  }
+
+  .footer .footer-text{
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px){
+
+  html{
+    padding: 1rem;
+  }
+
+  nav .left{
+    width: 10%;
+  }
+
+  nav .right{
+    width: 85%;
+    margin-left: 0;
+  }
+
+  main{
+    height: 80vh;
+  }
+
+  .main-text{
+    width: 50%;
+    top: 15%;
+  }
+
+  .main-text h1{
+    font-size: 1.4rem;
+  }
+
+  .main-text h4{
+    font-size: .8rem;
+    font-style: normal;
+    width: 75%;
+  }
+
+  .main-text button{
+    padding: .8rem 2.5rem;
+    font-size: 1rem;
+  }
+
+  .sec-1{
+    height: 80vh;
+  }
+
+  .sec-1-text{
+    width: 55%;
+  }
+
+  .sec-1-text h2{
+    letter-spacing: normal;
+    font-size: 1.5rem;
+  }
+
+  .sec-1-text h4{
+    letter-spacing: normal;
+    font-size: .9rem;
+    font-weight: normal;
+  }
+
+  .sec-1 .buttons{
+    margin-left: 1.5rem;
+  }
+
+  .sec-1 .buttons .try-on{
+    margin-right: .5rem;
+    padding: .6rem 1.8rem;
+  }
+
+  .sec-1 .buttons .ar{
+    margin-right: .5rem;
+    padding: .6rem 1.8rem;
+  }
+
+  .footer .imgs img{
+    width: 15rem;
+    height: 20rem;
+  }
+
+  .footer h3{
+    width: 50%;
+    font-size: 1.2rem;
+    padding: .8rem;
+  }
+
+  .footer .footer-text{
+    padding: .8rem;
+    font-size: .9rem;
+  }
+
+  .footer-text span{
+    font-size: 1.1rem;
+  }
+
+  .fun p{
+    margin-bottom: 5rem;
+  }
+
+  .sec-2 form{
+    margin-bottom: 5rem;
+  }
+
+  .sec-2 h3{
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 600px){
+  nav{
+    margin-bottom: 2rem;
+  }
+
+  nav .left img{
+    width: 3rem;
+    height: 2rem;
+  }
+
+  nav .right .search input {
+    width: 10rem;
+  }
+
+  ::placeholder{
+    font-size: 1rem;
+  }
+
+  nav button.no-border{
+    font-size: .8rem;
+  }
+
+  nav button.border{
+    font-size: .8rem;
+  }
+
+  main{
+    height: 70vh;
+  }
+
+  .main-text h1{
+    font-size: 1.1rem;
+  }
+
+  .main-text h4{
+    font-size: .7rem;
+    letter-spacing: normal;
+    margin-bottom: 2rem;
+  }
+
+  .main-text button{
+    padding: .6rem 1.5rem;
+    font-size: .8rem;
+  }
+
+  .sec-1-text h2{
+    font-size: 1.2rem;
+  }
+
+  .sec-1-text h4{
+    font-size: .75rem;
+  }
+
+  .sec-1-text h3{
+    font-size: 1.1rem;
+  }
+
+  .sec-1 .buttons .try-on{
+    margin-bottom: 1rem;
+  }
+
+  .sec-2 h2{
+    font-size: 1.7rem;
+  }
+
+  .sec-2 h3{
+    font-size: .9rem;
+  }
+
+  .sec-2 form input{
+    width: 12rem;
+    padding: .8rem;
+  }
+
+  .sec-2 form input::placeholder{
+    font-size: .8rem;
+  }
+
+  .sec-2 form button{
+    padding: .8rem;
+    font-size: .9rem;
+    width: 9rem;
+  }
+
+  .footer .imgs img{
+    width: 12rem;
+  }
+}
+
+@media screen and (max-width: 425px){
+  nav .left img {
+    width: 2rem;
+    height: 1.5rem;
+  }
+
+  nav{
+    justify-content: space-between;
+  }
+
+  .footer .imgs img {
+    width: 9rem;
+    height: 15rem;
+  }
+
+  nav .right .search input {
+    width: 7rem;
+    height: 1.2rem;
+    padding: .8rem;
+  }
+
+  nav .right .search input::placeholder{
+    font-size: .7rem;
+  }
+
+  main{
+    height: 60vh;
+  }
+
+  .main-text{
+    padding-left: .5rem;
+  }
+
+  .main-text h1{
+    font-size: .9rem;
+  }
+
+  .main-text h4{
+    font-size: .6rem;
+    font-weight: 500;
+  }
+
+  .main-text button {
+    padding: 0.5rem 1.2rem;
+    font-size: .6rem;
+  }
+
+  .sec-1{
+    height: 70vh;
+  }
+
+  .sec-1-text h2 {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .sec-1-text h3 {
+    font-size: .8rem;
+    margin-bottom: 1rem;
+  }
+
+  .sec-1 .buttons .try-on {
+    margin-right: 0.5rem;
+    padding: 0.5rem 1.4rem;
+  }
+
+  .sec-2 form input {
+    width: 10rem;
+    padding: 0.5rem;
+  }
+
+  .sec-2 form button {
+    padding: 0.5rem 0.2rem;
+    font-size: .8rem;
+    width: 7.8rem;
+  }
+
+  .footer .footer-text {
+    padding: 0.6rem;
+    font-size: .8rem;
+    width: 90%;
+  }
+}
