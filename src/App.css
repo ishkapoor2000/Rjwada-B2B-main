@@ -147,7 +147,7 @@ main {
 
 .sec-1-img img {
   height: 100%;
-  width: 100%;
+  width: fit-content;
   background: radial-gradient(ellipse at center, #ffffff 0%, #ffffff 59%, #ededed 100%);
   /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
 }

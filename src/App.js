@@ -1,6 +1,6 @@
 import React from 'react'
 import main from "./assets/main.png"
-import section1 from "./assets/section1.png"
+import section1 from "./assets/section1_small.png"
 import footer1 from "./assets/footer1.png"
 import "./App.css"
 import {Footer} from "./Footer"
