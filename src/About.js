@@ -25,11 +25,11 @@ function About() {
       
       <div className='team_container'>
         <h1 className='title'>meet our team</h1>
-        <div className='para'>
+        {/* <div className='para'>
         <p >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean fermentum risus id tortor. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante?</p>
-        </div>
+        </div> */}
         <div className='cards'>
-        <Card/><Card/><Card/>
+        <Card/>
         </div>
       </div>
       <Footer/>

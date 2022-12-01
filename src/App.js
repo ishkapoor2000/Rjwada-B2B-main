@@ -2,14 +2,20 @@ import React from 'react'
 import main from "./assets/main.png"
 import section1 from "./assets/section1.png"
 import footer1 from "./assets/footer1.png"
-import footer2 from "./assets/footer2.png"
 import "./App.css"
 import {Footer} from "./Footer"
 import {useNavigate} from "react-router-dom"
 
 function App() {
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
+  const shopifyDemoStoreLink = 'http://shop.rjwada.com';
+  const threedviewdemo = 'http://shop.rjwada.com';
+  const viewardemo = 'http://shop.rjwada.com';
+  const quoteFromLink = 'http://shop.rjwada.com';
+  const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
   return (
     <>
 
@@ -22,7 +28,7 @@ function App() {
           <div className="main-text">
             <h1>STEP INTO EXCITING NEW FUTURE</h1>
             <h4>A free vitual trial room. Something never seen before. Try your favourite cloth with just one click.</h4>
-            <button onClick={()=>navigate("/about")}>STEP-IN</button>
+            <button onClick={() => openInNewTab(shopifyDemoStoreLink)}>STEP-IN</button>
           </div>
         </div>
       </main>
@@ -36,8 +42,8 @@ function App() {
           <h4>A complete new feature for the new you. Be a model of your own. Try as many clothes as you want.</h4>
           <h3>NO TIME CONSTRAINTS!</h3>
           <div className="buttons">
-            <button className='try-on'>3D VIEW</button>
-            <button className='ar'>VIEW AR</button>
+            <button className='try-on' onClick={() => openInNewTab(threedviewdemo)}>3D VIEW</button>
+            <button className='ar' onClick={() => openInNewTab(viewardemo)}>VIEW AR</button>
           </div>
         </div>
       </section>
@@ -46,8 +52,8 @@ function App() {
         <h2>Let enter the future from here</h2>
         <h3>Made for future. Made for you. Celebrate the uniqueness with us. Join us to feel it.</h3>
         <form action="">
-          <input type="text" name="" id="" placeholder='Enter your Email Address' />
-          <button>Get a Quote</button>
+          {/* <input type="text" name="" id="" placeholder='Enter your Email Address' /> */}
+          <button onClick={() => openInNewTab(quoteFromLink)}>Get a Quote</button>
         </form>
         <div className="fun">
           <span className='fun-lg'>Fun Fact</span>
