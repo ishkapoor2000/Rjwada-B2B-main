@@ -10,9 +10,9 @@ const Nav = () => {
           <img src={logo} alt="" />
         </div>
         <div className="right">
-          <div className="search">
+          {/* <div className="search">
             <input type="text" placeholder='Search Rjwada' />
-          </div>
+          </div> */}
           <button className='no-border'>About Us</button>
           <button className='border'>Get Quote</button>
         </div>

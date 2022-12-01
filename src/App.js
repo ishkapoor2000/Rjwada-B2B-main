@@ -36,7 +36,7 @@ function App() {
           <h4>A complete new feature for the new you. Be a model of your own. Try as many clothes as you want.</h4>
           <h3>NO TIME CONSTRAINTS!</h3>
           <div className="buttons">
-            <button className='try-on'>3D TRY ON</button>
+            <button className='try-on'>3D VIEW</button>
             <button className='ar'>VIEW AR</button>
           </div>
         </div>
@@ -47,7 +47,7 @@ function App() {
         <h3>Made for future. Made for you. Celebrate the uniqueness with us. Join us to feel it.</h3>
         <form action="">
           <input type="text" name="" id="" placeholder='Enter your Email Address' />
-          <button>Sign up to Rjwada</button>
+          <button>Get a Quote</button>
         </form>
         <div className="fun">
           <span className='fun-lg'>Fun Fact</span>
@@ -62,10 +62,10 @@ function App() {
             <p>Lets take a closer look</p>
           </div>
         </aside>
-        <h3>3D Try On</h3>
+        <h3>AR Technology</h3>
         <div className="imgs">
           <img src={footer1} alt="" />
-          <img src={footer2} alt="" />
+          {/* <img src={footer2} alt="" /> */}
         </div>
       </div>
       <Footer/>

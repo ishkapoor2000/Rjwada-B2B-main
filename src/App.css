@@ -34,7 +34,7 @@ nav .left{
 nav .right{
   width: 50%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   align-items: center;
   margin-left: 15rem;
 }
@@ -67,6 +67,7 @@ nav .right button{
 
 .right .no-border{
   border: none;
+  margin-right: 3rem;
 }
 
 .right button.border{
