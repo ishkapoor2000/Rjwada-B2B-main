@@ -4,6 +4,7 @@ import section1 from "./assets/section1.png"
 import footer1 from "./assets/footer1.png"
 import footer2 from "./assets/footer2.png"
 import "./App.css"
+import {Footer} from "./Footer"
 import {useNavigate} from "react-router-dom"
 
 function App() {
@@ -67,6 +68,7 @@ function App() {
           <img src={footer2} alt="" />
         </div>
       </div>
+      <Footer/>
     </>
   )
 }

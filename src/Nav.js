@@ -13,8 +13,8 @@ const Nav = () => {
           <div className="search">
             <input type="text" placeholder='Search Rjwada' />
           </div>
-          <button className='no-border'>Sign in</button>
-          <button className='border'>Sign up</button>
+          <button className='no-border'>About Us</button>
+          <button className='border'>Get Quote</button>
         </div>
       </nav>
     </>
