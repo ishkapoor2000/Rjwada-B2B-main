@@ -9,12 +9,12 @@ export const Card = () => {
     <>
 <div class="card-container">
 	{/* <span class="pro">PRO</span> */}
-	<img class="round" src="https://randomuser.me/api/portraits/women/79.jpg" alt="user" />
+	<img class="round" src="./assets/abhinav.jpg" alt="user" />
 	<h3>Abhinav Verma</h3>
 	<h6>Founder & CEO</h6>
 	<p>Who is Abhinav Verma?</p>
 	<div class="buttons">
-		<button class="primary" onClick={() => openInNewTab("https://")}>
+		<button class="primary" onClick={() => openInNewTab("https://calendly.com/abhinaviitd")}>
 			Connect
 		</button>
 	
@@ -23,12 +23,12 @@ export const Card = () => {
 
 <div class="card-container">
 	{/* <span class="pro">PRO</span> */}
-	<img class="round" src="https://randomuser.me/api/portraits/women/79.jpg" alt="user" />
+	<img class="round" src="./assets/yash.jpg" alt="user" />
 	<h3>Yash Vardhan Singh</h3>
 	<h6>Co-Founder & MD</h6>
 	<p>Who is YVS?</p>
 	<div class="buttons">
-		<button class="primary" onClick={() => openInNewTab("https://")}>
+		<button class="primary" onClick={() => openInNewTab("https://calendly.com/abhinaviitd")}>
 			Connect
 		</button>
 	
@@ -37,7 +37,7 @@ export const Card = () => {
 
 <div class="card-container">
 	{/* <span class="pro">PRO</span> */}
-	<img class="round" src="https://randomuser.me/api/portraits/women/79.jpg" alt="user" />
+	<img class="round" src="./assets/ish.jpg" alt="user" />
 	<h3>Ish Kapoor</h3>
 	<h6>product Manager</h6>
 	<p>Why is ish Kapoor?</p>

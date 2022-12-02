@@ -1,7 +1,8 @@
 import React from 'react'
 import main from "./assets/main.png"
 import section1 from "./assets/section1_small.png"
-import footer1 from "./assets/footer1.png"
+import footer1 from "./assets/tryon.gif"
+import footer2 from "./assets/tryon2.gif"
 import "./App.css"
 import {Footer} from "./Footer"
 import {useNavigate} from "react-router-dom"
@@ -10,9 +11,9 @@ function App() {
 
   const navigate = useNavigate();
   const shopifyDemoStoreLink = 'http://shop.rjwada.com';
-  const threedviewdemo = 'http://shop.rjwada.com';
-  const viewardemo = 'http://shop.rjwada.com';
-  const quoteFromLink = 'http://shop.rjwada.com';
+  const threedviewdemo = 'https://Rjwada-x-Asian-Shoes.ishkapoor.repl.co';
+  const viewardemo = 'https://Rjwada-x-Asian-Shoes.ishkapoor.repl.co';
+  const quoteFromLink = 'https://calendly.com/abhinaviitd';
   const openInNewTab = url => {
     window.open(url, '_blank', 'noopener,noreferrer');
   };
@@ -71,7 +72,7 @@ function App() {
         <h3>AR Technology</h3>
         <div className="imgs">
           <img src={footer1} alt="" />
-          {/* <img src={footer2} alt="" /> */}
+          <img src={footer2} alt="" />
         </div>
       </div>
       <Footer/>

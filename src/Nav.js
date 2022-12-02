@@ -5,7 +5,7 @@ import {useNavigate} from "react-router-dom"
 
 const Nav = () => {
   const navigate = useNavigate();
-  const quoteFromLink = 'http://shop.rjwada.com';
+  const quoteFromLink = 'https://calendly.com/abhinaviitd';
   const openInNewTab = url => {
     window.open(url, '_blank', 'noopener,noreferrer');
   };

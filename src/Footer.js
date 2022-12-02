@@ -34,7 +34,7 @@ export const Footer = () => {
           
          <a href="#">contact@rjwada.com</a>
           
-          <p class = "num">+91-</p>
+          <p class = "num">+91 8765750208</p>
         </div>
       </div>
       
@@ -64,9 +64,9 @@ export const Footer = () => {
             <i class="sub-icon ri-arrow-right-line"></i>
           </div> */}
           <div class="icons">
-            <a href="https://www.linkedin.com/in/rjwada/">LinkedIn<i class="social-icon ri-facebook-fill"></i></a>
-            <a href="https://www.instagram.com/rjwadalife">Instagram<i class="social-icon ri-instagram-line"></i></a>
-            <a href="https://twitter.com/rjwadalife">Twitter<i class="social-icon ri-linkedin-fill"></i></a>
+            <a href="https://www.linkedin.com/in/rjwada/">L<i class="social-icon ri-facebook-fill"></i></a>
+            <a href="https://www.instagram.com/rjwadalife">L<i class="social-icon ri-instagram-line"></i></a>
+            <a href="https://twitter.com/rjwadalife">T<i class="social-icon ri-linkedin-fill"></i></a>
           </div>
         </div>
       </div>
